@@ -191,4 +191,8 @@ input_data = pd.concat([df_numerical, df_catagorical_combined], axis=1)
 
 prediction = model.predict(input_data)
 
-st.write("will person default",prediction)
+if(prediction ==1 ):
+    st.write("The person will default")
+
+else:
+    st.title("The person will not default") 
