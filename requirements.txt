@@ -91,7 +91,7 @@ Pygments==2.18.0
 pyparsing==3.1.2
 python-dateutil==2.9.0
 pytz==2024.1
-pywin32==306
+#pywin32==306 ## commenting out this requirement for deployment in streamlit 
 PyYAML==6.0.2
 pyzmq==25.1.2
 querystring-parser==1.2.4
